@@ -1,19 +1,19 @@
-package es.upm.miw.pd.composite.expression.solution;
+package es.upm.miw.pd.composite.expression;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import es.upm.miw.pd.composite.expression.solution.Division;
-import es.upm.miw.pd.composite.expression.solution.Expresion;
-import es.upm.miw.pd.composite.expression.solution.Multiplicacion;
-import es.upm.miw.pd.composite.expression.solution.Numero;
-import es.upm.miw.pd.composite.expression.solution.Resta;
-import es.upm.miw.pd.composite.expression.solution.Suma;
+import es.upm.miw.pd.composite.expression.Division;
+import es.upm.miw.pd.composite.expression.Expression;
+import es.upm.miw.pd.composite.expression.Multiplicacion;
+import es.upm.miw.pd.composite.expression.Numero;
+import es.upm.miw.pd.composite.expression.Resta;
+import es.upm.miw.pd.composite.expression.Suma;
 
 public class ExpressionTest {
-    private Expresion exp1, exp2, exp3, exp4, exp5, exp6;
+    private Expression exp1, exp2, exp3, exp4, exp5, exp6;
 
     @Before
     public void ini() {
