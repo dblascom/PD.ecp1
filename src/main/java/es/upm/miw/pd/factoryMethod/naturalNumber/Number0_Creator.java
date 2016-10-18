@@ -4,6 +4,6 @@ public class Number0_Creator extends NumberCreator {
 
     @Override
     public NaturalNumber createNumber (){
-        return new NaturalNumberEs(0);
+        return createNumber();
 }
 }

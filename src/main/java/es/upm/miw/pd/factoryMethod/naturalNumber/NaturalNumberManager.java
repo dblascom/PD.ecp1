@@ -10,4 +10,9 @@ public class NaturalNumberManager {
         NumberCreator.createNumber();
         return NumberCreator;
     };
+    
+    public NaturalNumber NaturalNumber(){
+        NaturalNumber.setValue(0);
+        return NaturalNumber;
+    };
 }
