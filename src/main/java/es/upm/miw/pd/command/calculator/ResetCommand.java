@@ -1,4 +1,4 @@
-package es.upm.miw.pd.command.calculator.solution;
+package es.upm.miw.pd.command.calculator;
 
 public class ResetCommand extends Operar {
 
